@@ -1,0 +1,38 @@
+
+body {
+    background: linear-gradient(to bottom right, #3e0066, #b280d6);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 12px;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+button {
+    background-color: gold;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+.wallet-info {
+    font-weight: bold;
+    color: lightgreen;
+}
